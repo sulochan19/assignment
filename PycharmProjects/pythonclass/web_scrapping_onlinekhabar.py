@@ -2,6 +2,9 @@ import csv
 from bs4 import BeautifulSoup
 import requests
 
+
+value=True
+
 source=requests.get('https://www.onlinekhabar.com/').text
 
 soup=BeautifulSoup(source,'html.parser')
